@@ -1,4 +1,5 @@
 export const paths = {
-    auth: () => '/auth',
+    auth: () => '/login',
     dashboard: () => '/dashboard',
+    forgotPassword: () => '/forgot-password',
 };

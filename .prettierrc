@@ -6,6 +6,5 @@
   "tabWidth": 2,
   "trailingComma": "all",
   "useTabs": false,
-  "importOrder": ["^@[^box]", "^@box/", "^[./]"],
   "importOrderSeparation": true
 }

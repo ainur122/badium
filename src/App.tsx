@@ -4,7 +4,7 @@ import './App.css';
 import RoutesPage from './pages/routesPage';
 
 function App() {
-  return <RoutesPage />;
+  return <div className={'bg-background min-h-screen min-w-full'}><RoutesPage /></div>;
 
 }
 
