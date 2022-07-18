@@ -3,7 +3,12 @@
 @tailwind utilities;
 
 body {
-    @apply text-body-2
+    @apply text-jane
+}
+
+
+textarea:focus, input:focus {
+    outline: none;
 }
 
 @font-face {
@@ -15,7 +20,7 @@ body {
 }
 
 @font-face {
-    font-family: 'Jeko';
+    font-family: 'Jeko-Medium';
     src: local('Jeko Medium'), local('JekoDisplay-Medium'),
     url('./assets/fonts/jeko/jeko-medium.ttf') format('truetype');
     font-weight: 500;
@@ -23,41 +28,89 @@ body {
 }
 
 @font-face {
-    font-family: 'Jeko';
+    font-family: 'Jeko-Regular';
     src: local('Jeko Regular'), local('JekoDisplay-Regular'),
     url('./assets/fonts/jeko/jeko-regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
+.text-mallory {
+    font-family: 'Jeko-Bold', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+}
 
-.text-h1 {
-    font-family: 'Jeko-Bold', serif;
+.text-mandy {
+    font-family: 'Jeko-Regular', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.text-march {
+    font-family: 'Jeko-Bold', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 22px;
 }
 
-.text-h2 {
-    font-family: 'Jeko-Bold', serif;
+.text-camila {
+    font-family: 'Jeko-Medium', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
-    line-height: 22px;
+    line-height: 27px;
 }
 
-.text-body-2 {
-    font-family: 'Jeko-Bold', serif;
+.text-cate {
+    font-family: 'Jeko-Regular', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.text-jane {
+    font-family: 'Jeko-Bold', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 21px;
 }
 
+
+.text-jakonda {
+    font-family: 'Jeko-Medium', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.text-jennifer {
+    font-family: 'Jeko-Regular', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.text-amanda {
+    font-family: 'Jeko-Bold', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+}
+
 a {
     @apply text-brand;
-    @apply text-body-2;
+    @apply text-jane;
     @apply cursor-pointer;
     @apply hover:text-brand-light;
     @apply ease-in-out;

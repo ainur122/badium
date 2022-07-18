@@ -12,7 +12,7 @@ export type AuthProps = {};
 
 
 export default function Login({}: AuthProps) {
-    return <div className="flex items-center justify-center h-screen">
+    return <div className="flex items-center justify-center min-h-screen p-8">
         <FormXS>
             <img className='fill-black w-28 mb-15' src={logo} alt=""/>
             <TextInput placeholder='Email'/>
@@ -27,10 +27,10 @@ export default function Login({}: AuthProps) {
                 <div className="border border-grey-4 h-px flex-grow"/>
             </div>
             <div className="flex gap-8">
-                <div className="rounded-full p-3.5 bg-grey-4 ">
+                <div className="rounded-full p-3.5 bg-grey-4 cursor-pointer">
                     <img src={facebook} alt="facebook"/>
                 </div>
-                <div className="rounded-full p-3.5 bg-grey-4 ">
+                <div className="rounded-full p-3.5 bg-grey-4 cursor-pointer">
                     <img src={google} alt="goggle"/>
                 </div>
             </div>
