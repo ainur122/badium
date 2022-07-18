@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-    @apply text-jane
+    @apply text-cate
 }
 
 
@@ -14,7 +14,7 @@ textarea:focus, input:focus {
 @font-face {
     font-family: 'Jeko-Bold';
     src: local('Jeko Blod'), local('JecoDisplay-Light'),
-    url('./assets/fonts/jeko/jeko-regular.ttf') format('truetype');
+    url('./assets/fonts/jeko/jeko-bold.ttf') format('truetype');
     font-weight: 400;
     font-style: normal;
 }

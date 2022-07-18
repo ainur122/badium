@@ -20,8 +20,8 @@ export default function ForgotPassword({}: ForgotPasswordProps) {
                 Enter the email address associated with your account and we’ll send you a link to reset your password.
             </div>
             <TextInput placeholder='Email'/>
-            <div className='w-3/5 mx-auto mb-15'>
-                <Button>Continue</Button>
+            <div className='w-3/5 mx-auto '>
+                <Link to={paths.restPassword()}><Button>Continue</Button></Link>
             </div>
         </FormXS>
     </div>;
